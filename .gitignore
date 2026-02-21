@@ -1,6 +1,7 @@
 .next
 .next-dev
 .next-prod
+out
 node_modules
 dist
 coverage
