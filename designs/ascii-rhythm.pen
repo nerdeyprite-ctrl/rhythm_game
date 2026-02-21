@@ -1,0 +1,129 @@
+{
+  "version": "2.6",
+  "children": [
+    {
+      "type": "frame",
+      "id": "WGZUo",
+      "x": 122,
+      "y": 139,
+      "name": "ASCII Rhythm",
+      "width": 1440,
+      "height": 900,
+      "fill": "#fdf6e3",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 40,
+      "children": [
+        {
+          "type": "frame",
+          "id": "DdHo2",
+          "name": "HUD",
+          "width": "fill_container",
+          "gap": 32,
+          "children": [
+            {
+              "type": "text",
+              "id": "qtLjB",
+              "fill": "#586e75",
+              "content": "SCORE 0012840",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "jjoJ5",
+              "fill": "#268bd2",
+              "content": "[::::::..::..::....]",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "8CpgX",
+              "fill": "#2aa198",
+              "content": "COMBO 042",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "2VpJa",
+          "name": "STAGE",
+          "width": "fill_container",
+          "height": "fill_container",
+          "gap": 64,
+          "children": [
+            {
+              "type": "text",
+              "id": "5gTcQ",
+              "fill": "#657b83",
+              "content": "|\n#\n|\n=\n|\n*\n|\nD\n\n|\n@\n|\n-\n|\n%\n|\nF\n\n|\n%\n|\n+\n|\n#\n|\nJ\n\n|\n*\n|\n=\n|\n@\n|\nK",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "URe0M",
+              "fill": "#586e75",
+              "content": "          +-------+\n         /|      /|\n        / |     / |\n       +--+----+  |\n       |  +----|--+\n       | /     | /\n       |/      |/\n       +-------+",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "5AjAJ",
+              "fill": "#cb4b16",
+              "content": "PERFECT",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "eO7Hd",
+          "name": "FOOTER",
+          "width": "fill_container",
+          "gap": 36,
+          "children": [
+            {
+              "type": "text",
+              "id": "BUHSB",
+              "fill": "#657b83",
+              "content": "120 BPM",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "jFtLZ",
+              "fill": "#839496",
+              "content": "ASCII FLOW / BORDERLESS / SOLARIZED-LIGHT",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "qTk9i",
+              "fill": "#657b83",
+              "content": "D   F   J   K",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.next
+.next-dev
+.next-prod
+node_modules
+dist
+coverage
+.DS_Store

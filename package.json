@@ -1,0 +1,31 @@
+{
+  "name": "ascii-rhythm-design-preview",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf .next .next-dev .next-prod",
+    "predev": "npm run clean",
+    "dev": "next dev --hostname 127.0.0.1",
+    "predev:preview": "npm run clean",
+    "dev:preview": "next dev --hostname 127.0.0.1 --port 3012",
+    "build": "next build",
+    "verify:rhythm": "./scripts/verify-rhythm-gameplay.sh",
+    "start": "next start --hostname 127.0.0.1",
+    "start:preview": "next start --hostname 127.0.0.1 --port 3012",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.3.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.5.3",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.8.3"
+  }
+}
